@@ -2,4 +2,14 @@
   <%= label_tag :twitter_name %>
   <%= text_field_tag :twitter_name %>
   <%= submit_tag 'Mute' %>
+  <%= label_tag :unmute_at, 'Mute for:' %>
+  <%= select(:mute, :unmute_at,
+      [
+        ['an hour', 1.hour.from_now],
+        ['a day', 1.day.from_now],
+        ['a week', 1.week.from_now],
+        ['a month', 1.month.from_now],
+        ['until World Cup 2014 is over', 'Sun, 14 Jul 2014 00:00:00 +0000']
+      ]
+      ) %>
 <% end %>
