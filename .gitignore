@@ -24,3 +24,4 @@ config/initializers/secret_token.rb
 /.ruby-gemset
 /access-credentials
 /.env
+/eproject.cfg
