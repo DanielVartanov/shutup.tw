@@ -10,6 +10,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'puma'
 gem 'dotenv-rails'
+gem 'twitter'
+gem 'twitter_oauth'
 
 group :development, :test do
   gem 'pry-debugger'
