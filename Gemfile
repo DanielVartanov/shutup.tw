@@ -12,6 +12,8 @@ gem 'puma'
 gem 'dotenv-rails'
 gem 'twitter'
 gem 'twitter_oauth'
+gem 'sidekiq'
+gem 'sinatra', require: nil
 
 group :development, :test do
   gem 'pry-debugger'
@@ -24,5 +26,5 @@ group :development do
   gem 'capistrano-bundler', '~> 1.1.2'
   gem 'capistrano-rvm'
   gem 'capistrano3-puma'
-  # gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq'
 end
