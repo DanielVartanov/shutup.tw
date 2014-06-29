@@ -10,6 +10,6 @@ class AuthenticationController < ApplicationController
 
     session[:user_id] = user.id
 
-    redirect_to root_path
+    redirect_to new_mute_path
   end
 end
