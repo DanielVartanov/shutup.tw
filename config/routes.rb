@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get 'authentication/callback'
 
   resource :mute, only: [:new, :create]
+
+  root "pages#home"
 end

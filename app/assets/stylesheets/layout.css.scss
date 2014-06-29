@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+#screenshot {
+  border: 1px dashed black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#sign_in {
+  display: inline-block;
+  padding: 10px;
+  background: gray;
+  border-radius: 10px;
+  color: white;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 40px;
+}
